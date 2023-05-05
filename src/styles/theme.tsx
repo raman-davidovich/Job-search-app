@@ -14,6 +14,9 @@ export const Theme: MantineThemeOverride = {
     sm: "8px",
     md: "12px",
   },
+  spacing: {
+    xl: "32px",
+  },
   colors: {
     grey: [
       "#FFFFFF",
