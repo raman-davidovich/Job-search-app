@@ -1,24 +1,29 @@
+import { Container, MantineProvider } from "@mantine/core";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Theme } from "./styles/theme";
-import { Button, Loader, MantineProvider, Text } from "@mantine/core";
+import Header from "./components/Header";
+import SearchVacanciesPage from "./components/SearchVacanciesPage";
+import FavouritesPage from "./components/FavouritesPage";
 
 const App = () => {
   return (
     <MantineProvider withGlobalStyles withNormalizeCSS theme={Theme}>
-      <Text>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ullam
-        incidunt excepturi inventore ea illo, quos id eveniet eligendi sunt
-        omnis dolore dolorem fugiat beatae aliquid recusandae. Aperiam
-        voluptatibus alias officia sint eveniet ab impedit distinctio nisi.
-        Maiores culpa debitis rem, vero provident minima sunt dicta quod numquam
-        adipisci? Ullam ducimus dolorum minima at quidem nulla impedit,
-        reprehenderit itaque deserunt earum hic. Eos temporibus ipsam possimus
-        veritatis quod, nesciunt rem eum tenetur excepturi sit? Possimus ad,
-        quae non perferendis harum ab distinctio nam nesciunt. Architecto esse
-        delectus laboriosam aperiam nobis? Amet, quisquam accusantium officiis
-        accusamus natus illum iusto! Delectus, explicabo!
-      </Text>
-      <Button color="blue.5">Test</Button>
-      <Loader color="blue.5" />
+      <Container
+        size="xl"
+        px={162}
+        mih="100vh"
+        sx={(theme) => ({
+          borderRadius: theme.radius.md,
+        })}
+      >
+        <Router>
+          <Header />
+          <Routes>
+            <Route path="/" element={<SearchVacanciesPage />} />
+            <Route path="/favourites" element={<FavouritesPage />} />
+          </Routes>
+        </Router>
+      </Container>
     </MantineProvider>
   );
 };
