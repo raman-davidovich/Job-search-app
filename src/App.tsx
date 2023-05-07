@@ -1,9 +1,9 @@
 import { Container, MantineProvider } from "@mantine/core";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Theme } from "./styles/theme";
-import Header from "./components/Header";
-import SearchVacanciesPage from "./components/SearchVacanciesPage";
-import FavouritesPage from "./components/FavouritesPage";
+import Header from "./components/Header/Header";
+import SearchVacanciesPage from "./components/SearchPage/SearchVacanciesPage";
+import FavouritesPage from "./components/FavouritesPage/FavouritesPage";
 
 const App = () => {
   return (
