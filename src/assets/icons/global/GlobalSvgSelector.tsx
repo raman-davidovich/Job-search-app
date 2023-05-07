@@ -568,6 +568,48 @@ function GlobalSvgSelector({ id }: Props) {
           />
         </svg>
       );
+    case "dot_separator":
+      return (
+        <svg
+          width="5"
+          height="6"
+          viewBox="0 0 5 6"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M2.47891 5.78C3.85891 5.78 4.95891 4.7 4.95891 3.34C4.95891 1.96 3.85891 0.879999 2.47891 0.879999C1.11891 0.879999 0.0389063 1.96 0.0389063 3.34C0.0389063 4.7 1.11891 5.78 2.47891 5.78Z"
+            fill="#7B7C88"
+          />
+        </svg>
+      );
+    case "reset":
+      return (
+        <svg
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line
+            x1="11.7425"
+            y1="4.44219"
+            x2="4.44197"
+            y2="11.7427"
+            stroke="#ACADB9"
+            stroke-width="1.25"
+          />
+          <line
+            x1="11.9013"
+            y1="11.7425"
+            x2="4.60082"
+            y2="4.44197"
+            stroke="#ACADB9"
+            stroke-width="1.25"
+          />
+        </svg>
+      );
     default:
       return null;
   }
