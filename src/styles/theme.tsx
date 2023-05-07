@@ -15,6 +15,10 @@ export const Theme: MantineThemeOverride = {
     md: "12px",
   },
   spacing: {
+    xxs: "8px",
+    xs: "12px",
+    md: "20px",
+    lg: "28px",
     xl: "32px",
   },
   colors: {
@@ -32,3 +36,28 @@ export const Theme: MantineThemeOverride = {
     blue: ["#DEECFF", "#C9E0FF", "#B7D6FF", "#92C1FF", "#5E96FC", "#3B7CD3"],
   },
 };
+// How to rewrite styles for standart components
+
+{
+  /* <MantineProvider
+inherit
+theme={{
+  components: {
+    InputWrapper: {
+      styles: (theme) => ({
+        label: {
+          backgroundColor:
+            theme.colorScheme === 'dark' ? 'rgba(255, 255, 255, .1)' : 'rgba(0, 0, 0, .1)',
+        },
+      }),
+    },
+
+    Input: {
+      styles: (theme) => ({
+        input: { borderColor: theme.colors.violet[theme.fn.primaryShade()] },
+      }),
+    },
+  },
+}}
+> */
+}
