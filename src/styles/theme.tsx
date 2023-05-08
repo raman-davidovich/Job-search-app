@@ -17,6 +17,7 @@ export const Theme: MantineThemeOverride = {
   spacing: {
     xxs: "8px",
     xs: "12px",
+    sm: "16px",
     md: "20px",
     lg: "28px",
     xl: "32px",
