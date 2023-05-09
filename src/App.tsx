@@ -12,6 +12,19 @@ function GlobalStyles() {
         body: {
           backgroundColor: Theme.colors.grey[4],
         },
+        Input: {
+          "&:focus": {
+            borderColor: Theme.colors.blue[4],
+          },
+        },
+        Button: {
+          "&:hover": {
+            backgroundColor: Theme.colors.blue[3],
+          },
+          "&:active": {
+            backgroundColor: Theme.colors.blue[5],
+          },
+        },
       })}
     />
   );
