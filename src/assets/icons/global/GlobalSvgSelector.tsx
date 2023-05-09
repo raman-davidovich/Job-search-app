@@ -18,7 +18,7 @@ function GlobalSvgSelector({ id }: Props) {
             d="M10.9718 2.70846C11.4382 1.93348 12.5618 1.93348 13.0282 2.70847L15.3586 6.58087C15.5262 6.85928 15.7995 7.05784 16.116 7.13116L20.5191 8.15091C21.4002 8.35499 21.7474 9.42356 21.1545 10.1066L18.1918 13.5196C17.9788 13.765 17.8744 14.0863 17.9025 14.41L18.2932 18.9127C18.3714 19.8138 17.4625 20.4742 16.6296 20.1214L12.4681 18.3583C12.1689 18.2316 11.8311 18.2316 11.5319 18.3583L7.37038 20.1214C6.53754 20.4742 5.62856 19.8138 5.70677 18.9127L6.09754 14.41C6.12563 14.0863 6.02124 13.765 5.80823 13.5196L2.8455 10.1066C2.25257 9.42356 2.59977 8.35499 3.48095 8.15091L7.88397 7.13116C8.20053 7.05784 8.47383 6.85928 8.64138 6.58087L10.9718 2.70846Z"
             stroke="current"
             fill="current"
-            stroke-width="1.5"
+            strokeWidth="1.5"
           />
         </svg>
       );
@@ -34,25 +34,26 @@ function GlobalSvgSelector({ id }: Props) {
           <path
             d="M12.6667 10L8.52071 6.44626C8.22112 6.18946 7.77904 6.18946 7.47945 6.44626L3.33341 10"
             stroke="#ACADB9"
-            stroke-width="1.5"
-            stroke-linecap="round"
+            strokeWidth="1.5"
+            strokeLinecap="round"
           />
         </svg>
       );
     case "down":
       return (
         <svg
-          width="16"
-          height="16"
-          viewBox="0 0 16 16"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
           fill="none"
+          stroke="#ACADB9"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M3.33325 6L7.47929 9.55374C7.77888 9.81054 8.22096 9.81054 8.52055 9.55374L12.6666 6"
-            stroke="#ACADB9"
-            stroke-width="1.5"
-            stroke-linecap="round"
+            d="M5 9L11.2191 14.3306C11.6684 14.7158 12.3316 14.7158 12.7809 14.3306L19 9"
+            stroke="current"
+            strokeWidth="1.5"
+            strokeLinecap="round"
           />
         </svg>
       );
@@ -68,16 +69,16 @@ function GlobalSvgSelector({ id }: Props) {
           <path
             d="M17.6569 16.6569C16.7202 17.5935 14.7616 19.5521 13.4138 20.8999C12.6327 21.681 11.3677 21.6814 10.5866 20.9003C9.26234 19.576 7.34159 17.6553 6.34315 16.6569C3.21895 13.5327 3.21895 8.46734 6.34315 5.34315C9.46734 2.21895 14.5327 2.21895 17.6569 5.34315C20.781 8.46734 20.781 13.5327 17.6569 16.6569Z"
             stroke="#ACADB9"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
           <path
             d="M15 11C15 12.6569 13.6569 14 12 14C10.3431 14 9 12.6569 9 11C9 9.34315 10.3431 8 12 8C13.6569 8 15 9.34315 15 11Z"
             stroke="#ACADB9"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </svg>
       );
@@ -93,8 +94,8 @@ function GlobalSvgSelector({ id }: Props) {
           <path
             d="M11.468 11.468L14.5714 14.5714M13.0924 7.54622C13.0924 10.6093 10.6093 13.0924 7.54622 13.0924C4.48313 13.0924 2 10.6093 2 7.54622C2 4.48313 4.48313 2 7.54622 2C10.6093 2 13.0924 4.48313 13.0924 7.54622Z"
             stroke="#ACADB9"
-            stroke-width="1.5"
-            stroke-linecap="round"
+            strokeWidth="1.5"
+            strokeLinecap="round"
           />
         </svg>
       );
@@ -601,7 +602,7 @@ function GlobalSvgSelector({ id }: Props) {
             x2="4.44197"
             y2="11.7427"
             stroke="current"
-            stroke-width="1.25"
+            strokeWidth="1.25"
           />
           <line
             x1="11.9013"
@@ -609,7 +610,7 @@ function GlobalSvgSelector({ id }: Props) {
             x2="4.60082"
             y2="4.44197"
             stroke="current"
-            stroke-width="1.25"
+            strokeWidth="1.25"
           />
         </svg>
       );
