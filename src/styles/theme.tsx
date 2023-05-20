@@ -1,6 +1,7 @@
 import { MantineThemeOverride } from "@mantine/core";
 
 export const Theme: MantineThemeOverride = {
+  loader: "bars",
   fontFamily: "Inter, sans-serif",
   fontSizes: {
     xs: "14px",
