@@ -614,6 +614,72 @@ function GlobalSvgSelector({ id }: Props) {
           />
         </svg>
       );
+    case "input_up":
+      return (
+        <svg
+          width="12"
+          height="12"
+          viewBox="0 0 12 12"
+          fill="none"
+          stroke="#ACADB9"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M9.50006 7.5L6.39054 4.83469C6.16584 4.6421 5.83428 4.6421 5.60959 4.83469L2.50006 7.5"
+            stroke="current"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+          />
+        </svg>
+      );
+    case "input_down":
+      return (
+        <svg
+          width="12"
+          height="12"
+          viewBox="0 0 12 12"
+          fill="none"
+          stroke="#ACADB9"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M2.49994 4.5L5.60946 7.16531C5.83416 7.3579 6.16572 7.3579 6.39041 7.16531L9.49994 4.5"
+            stroke="current"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+          />
+        </svg>
+      );
+    case "next":
+      return (
+        <svg
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
+          fill="#7B7C88"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8.63298 7.99999L5.33298 4.69999L6.27598 3.75699L10.519 7.99999L6.27598 12.243L5.33298 11.3L8.63298 7.99999Z"
+            fill="current"
+          />
+        </svg>
+      );
+    case "previous":
+      return (
+        <svg
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
+          fill="#7B7C88"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7.36705 7.99999L10.6671 4.69999L9.72405 3.75699L5.48105 7.99999L9.72405 12.243L10.6671 11.3L7.36705 7.99999Z"
+            fill="current"
+          />
+        </svg>
+      );
     default:
       return null;
   }
