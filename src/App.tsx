@@ -15,24 +15,29 @@ function GlobalStyles() {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          marginBottom: "5rem",
-          fontSize: "1.2rem",
-          gap: "5px",
+          gap: Theme.spacing.xxs,
 
           "& .page-num": {
-            padding: "8px 15px",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            width: "32px",
+            height: "32px",
+            padding: "0px 8px",
             cursor: "pointer",
-            borderRadius: "3px",
+            borderRadius: "4px",
             fontWeight: 400,
-
-            "&:hover": {
-              backgroundColor: Theme.colors.blue[4],
-              color: Theme.colors.grey[4],
-            },
+            fontSize: Theme.fontSizes.sm,
+            color: Theme.colors.grey[8],
+            borderWidth: "1px",
+            borderStyle: "solid",
+            borderColor: Theme.colors.grey[5],
+            backgroundColor: Theme.colors.grey[0],
           },
 
           "& .active-num": {
             backgroundColor: Theme.colors.blue[4],
+            color: Theme.colors.grey[0],
           },
         },
         body: {
